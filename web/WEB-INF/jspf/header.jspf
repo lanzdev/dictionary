@@ -1,0 +1,23 @@
+<%@ include file="/WEB-INF/jspf/page.jspf"%>
+<%@ include file="/WEB-INF/jspf/taglib.jspf"%>
+
+<div class="navbar">
+    <ul class="menu">
+        <li class="left"><a href="controller?command=ListTerms">Terms</a></li>
+        <li class="left"><a href="">Suites</a></li>
+        <li class="right"><a href="">Account</a></li>
+        <li class="right">
+            <a href="controller?command=Logout">
+                <img src="../img/logout.png" alt="">
+            </a>
+        </li>
+    </ul>
+    <ul class="lang">
+        <form action="controller" method="post">
+            <input type="hidden" name="command" value="language">
+            <input type="hidden" name="language" value="en">
+        </form>
+    </ul>
+    <h2>Quiz Land</h2>
+
+</div>

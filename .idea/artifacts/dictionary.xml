@@ -1,0 +1,20 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="dictionary">
+    <output-path>$PROJECT_DIR$/out/artifacts/dictionary</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="dictionary" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="junit-4.12" />
+          <element id="library" level="project" name="Maven: org.apache.logging.log4j:log4j-api:2.3" />
+          <element id="library" level="project" name="mysql-connector-java-5.1.40-bin" />
+          <element id="library" level="project" name="Maven: log4j:log4j:1.2.17" />
+          <element id="library" level="project" name="Maven: javax.servlet:jstl:1.2" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="dictionary/web/Web" />
+    </root>
+  </artifact>
+</component>
